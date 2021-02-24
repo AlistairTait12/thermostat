@@ -7,16 +7,16 @@
   <body>
     <section>
       <h1 id="temperature"></h1>
-      <p>
-        <button id="temperature-up">+</button>
+      <p id="controls">
         <button id="temperature-down">-</button>
         <button id="temperature-reset">reset</button>
-        power saving mode is <span id="power-saving-status">on</span>
         <button id="powersaving-on">PSM on</button>
         <button id="powersaving-off">PSM off</button>
+        <button id="temperature-up">+</button><br>
+        power saving mode is <span id="power-saving-status">on</span>
       </p>
     </section>
-    <section>
+    <section id="city">
       <h1>Current temperature: <span id="current-temperature"></span></h1>
       <form id="select-city">
         <input type="text" placeholder="Enter a city" id="current-city">
