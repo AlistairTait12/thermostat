@@ -21,13 +21,14 @@
   height: 400px;
   margin: auto;
   font-size: 200px;
-  border-style: solid;
+  border-style: dotted;
   border-radius: 50%;
   border-color: white;
   text-align: center;
   vertical-align: middle;
   line-height: 400px;
   background-color: grey;
+  font-family: monospace;
 }
 
 #controls {
@@ -35,6 +36,15 @@
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+#select-city{
+  background-color: transparent;
+  padding-bottom: 20px;
 }
 
 #city {
@@ -42,4 +52,22 @@
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 25px;
+}
+
+.mode {
+  font-family: monospace;
+  border-color: red;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  vertical-align: middle;
 }
